@@ -16,7 +16,7 @@ header {
     top: 0;
 }
 
-header nav div {
+header div {
     background-color: #000000;
 }
 
@@ -40,7 +40,7 @@ header nav div ul li a {
 
 /**--------------------------------------------------------MAIN INDEX-----------------------------------------------------------------------------*/
 
-.hero img {
+.hero div img {
     width: 100%;
     height: 500px;
 }
@@ -51,15 +51,17 @@ header nav div ul li a {
     justify-content: center;
     align-items: center;
     color: white;
+    background-color: black;
+    width: 100%;
 }
 
-.hero h1 {
+.hero div h1 {
     font-size: 70px;
     text-align: center;
 
 }
 
-.hero p {
+.hero div p {
     font-size: 40px;
     color: white;
     text-align: center;
@@ -67,10 +69,7 @@ header nav div ul li a {
 
 }
 
-.hero div {
-    background-color: black;
-    width: 100%;
-}
+
 
 
 .ingresos article h2 {
@@ -97,7 +96,7 @@ header nav div ul li a {
 }
 
 .new article {
-    border: 2.5px solid black;
+    border: 0.5px solid black;
     height: 460px;
     margin: 10px;
     text-align: center;
@@ -390,7 +389,7 @@ header img {
 }
 
 .tienda article {
-    border: 3px solid black;
+    border: 0.5px solid black;
     height: 500px;
     margin: 10px;
     text-align: center;
@@ -438,7 +437,7 @@ header img {
 }
 
 .ingreso article {
-    border: 3px solid black;
+    border: 0.5px solid black;
     height: 500px;
     margin: 10px;
     text-align: center;
@@ -526,7 +525,7 @@ header img {
 
 .stock article {
     border: 0.5px solid black;
-    height: 500px;
+    height: 400px;
     margin-bottom: 10px;
     text-align: center;
 
@@ -799,7 +798,7 @@ header img {
     transition: 0.8s;
 }
 
-/*?--------------------------------------------------------RESPONSIVE QUIENES SOMOS-----------------------------------------------------------------------------*/
+/*?--------------------------------------------------------RESPONSIVE LOCALES-----------------------------------------------------------------------------*/
 @media screen and (max-width:1119px) {
     .palermo div h2 {
         font-size: 40px;
@@ -867,27 +866,33 @@ header img {
         height: 400px;
     }
 
-    .alto-palermo iframe{
+    .alto-palermo iframe {
         width: 400px;
         height: 400px;
     }
 
-    .dot iframe{
+    .dot iframe {
         width: 400px;
         height: 400px;
 
     }
 }
+
 @media screen and (max-width:419px) {
-    .lugar img{
+    .lugar img {
         height: 200px;
     }
-    .lugar h1{
+
+    .lugar h1 {
         font-size: 40px;
     }
+
     .palermo iframe {
         width: 250px;
         height: 250px;
+    }
+    .palermo div p{
+        font-size: 25px;
     }
 
     .cerro iframe {
@@ -895,18 +900,28 @@ header img {
         height: 250px;
     }
 
-    .alto-palermo iframe{
+    .cerro div p{
+        font-size: 25px;
+    }
+
+    .alto-palermo iframe {
         width: 250px;
         height: 250px;
     }
+    .alto-palermo p{
+        font-size: 25px;
+    }
 
-    .dot iframe{
+    .dot iframe {
         width: 250px;
         height: 250px;
 
+    }
+    .dot p{
+        font-size: 25px;
     }
 }
-
+/*?--------------------------------------------------------RESPONSIVE QUIENES SOMOS-----------------------------------------------------------------------------*/
 
 @media screen and (max-width:918px) {
     .formulario div label {
@@ -960,7 +975,6 @@ header img {
 
     }
 }
-
 @media screen and (max-width:1277px) {
     .texto article img {
         width: 450px;
@@ -1062,7 +1076,7 @@ header img {
     }
 
     .buzos article {
-        border: 3px solid black;
+        border: 0.5px solid black;
         height: 400px;
         margin: 10px;
         text-align: center;
@@ -1159,7 +1173,7 @@ header img {
 @media screen and (max-width:386px) {
     .bannerti img {
         width: 100%;
-        height: 180px;
+        height: 150px;
     }
 }
 
@@ -1171,7 +1185,6 @@ header img {
 
 
     .tienda article {
-        border: 3px solid black;
         height: 400px;
         margin: 10px;
         text-align: center;
@@ -1192,7 +1205,6 @@ header img {
     }
 
     .ingreso article {
-        border: 3px solid black;
         height: 400px;
         margin: 10px;
         text-align: center;

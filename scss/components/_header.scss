@@ -1,0 +1,33 @@
+header {
+    position: sticky;
+    top: 0;
+
+    nav {
+        div {
+            background-color: #000000;
+
+            ul {
+                li {
+                    a {
+                        color: white !important;
+                        font-size: 25px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar {
+    padding: 0;
+}
+
+.botton {
+    border: 1.5px white solid;
+    color: white;
+
+    &:hover {
+        background-color: rgba(190, 0, 0, 0.699);
+    }
+
+}

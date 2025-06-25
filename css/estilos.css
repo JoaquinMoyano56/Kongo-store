@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+header nav div {
+  background-color: #000000;
+}
+header nav div ul li a {
+  color: white !important;
+  font-size: 25px !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.botton {
+  border: 1.5px white solid;
+  color: white;
+}
+.botton:hover {
+  background-color: rgba(190, 0, 0, 0.699);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+.hero div img {
+  width: 100%;
+  height: 500px;
+}
+.hero div h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.hero div p {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

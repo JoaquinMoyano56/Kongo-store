@@ -1,0 +1,589 @@
+/*?--------------------------------------------------------RESPONSIVE LOCALES-----------------------------------------------------------------------------*/
+@media screen and (max-width:1119px) {
+    .palermo {
+        div {
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .cerro {
+        div {
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .alto-palermo {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+
+    .dot {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width:1029px) {
+    .palermo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cerro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alto-palermo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dot {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:627px) {
+    .palermo {
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    .cerro {
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    .alto-palermo {
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    .dot {
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (max-width:419px) {
+    .lugar {
+        img {
+            height: 200px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .palermo {
+        div {
+            p {
+                font-size: 25px;
+            }
+        }
+
+        iframe {
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    .cerro {
+        div {
+            p {
+                font-size: 25px;
+            }
+        }
+
+        iframe {
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    .alto-palermo {
+        div {
+            p {
+                font-size: 25px;
+            }
+        }
+
+        iframe {
+            width: 250px;
+            height: 250px
+        }
+    }
+
+    .dot {
+        div {
+            p {
+                font-size: 25px;
+            }
+        }
+
+        iframe {
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+
+}
+
+/*?--------------------------------------------------------RESPONSIVE QUIENES SOMOS-----------------------------------------------------------------------------*/
+@media screen and (max-width:918px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+
+        div {
+            label {
+                font-size: 20px;
+                background-color: #1d1a1a52;
+            }
+        }
+
+        input {
+            font-size: 15px;
+            margin: 30px 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width:1277px) {
+    .texto {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        article {
+            img {
+                width: 450px;
+                height: 450px;
+            }
+
+            h2 {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+                margin: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:485px) {
+    .texto {
+        article {
+            img {
+                width: 300px;
+                height: 300px;
+            }
+
+            h2 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 10px;
+                text-align: center;
+                margin: 20px;
+            }
+        }
+    }
+}
+
+/*?--------------------------------------------------------RESPONSIVE NUEVO-----------------------------------------------------------------------------*/
+@media screen and (max-width:1212px) {
+    .active {
+        img {
+            width: 100% !important;
+            height: 400px !important;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:858px) {
+    .active {
+        img {
+            height: 300px !important;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:572px) {
+    .active {
+        img {
+            height: 200px !important;
+            margin-bottom: 10px
+        }
+    }
+}
+
+@media screen and (max-width:536px) {
+    .active {
+        img {
+            height: 150px !important;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:398px) {
+    .stock {
+        article {
+            height: 400px;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+    .buzos {
+        article {
+            height: 400px;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:978px) {
+    .invierno {
+        div {
+            article {
+                h1 {
+                    font-size: 50px;
+                    text-align: center;
+                    color: #0c0b0b;
+                }
+
+                p {
+                    font-size: 20px;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:898px) {
+    .invierno {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:604px) {
+    .invierno {
+        div {
+            video {
+                width: 400px;
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:578px) {
+    .invierno {
+        div {
+            article {
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:405px) {
+    .invierno {
+        div {
+            video {
+                width: 300px;
+                height: 400px;
+                margin-top: 0px;
+            }
+
+            article {
+                h1 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+}
+
+/*?--------------------------------------------------------RESPONSIVE TIENDA-----------------------------------------------------------------------------*/
+@media screen and (max-width:828px) {
+    .bannerti {
+        img {
+            height: 300px;
+        }
+    }
+}
+
+@media screen and (max-width:596px) {
+    .bannerti {
+        img {
+            height: 250px;
+        }
+    }
+}
+
+@media screen and (max-width:596px) {
+    .bannerti {
+        img {
+            height: 250px;
+        }
+    }
+}
+
+@media screen and (max-width:496px) {
+    .bannerti {
+        img {
+            height: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:386px) {
+    .bannerti {
+        img {
+            height: 150px;
+        }
+    }
+}
+
+@media screen and (max-width:380px) {
+    .tienda {
+        article {
+            height: 400px;
+            margin: 10px;
+            text-align: center;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+    .ingreso {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+        article {
+            height: 400px;
+            margin: 10px;
+            text-align: center;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+
+/*?--------------------------------------------------------RESPONSIVE INDEX-----------------------------------------------------------------------------*/
+@media screen and (max-width:1131px) {
+    .nueva {
+        img {
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
+@media screen and (max-width:1042px) {
+    .grid {
+        background-color: #fffcfc;
+        display: none;
+    }
+}
+
+@media screen and (max-width:1071px) {
+    .grid-contenedor {
+        display: grid;
+        grid-template-columns: 0.3fr 0.2fr 0fr 0.2fr 0fr;
+        grid-template-rows: 180px 0.1px;
+        gap: 20px;
+    }
+
+    .men-1 {
+        background-image: none;
+        background-color: #000000;
+
+    }
+
+    .women-2 {
+        background-image: none;
+        background-color: #000000;
+    }
+
+}
+
+@media screen and (max-width:754px) {
+    .grid-contenedor {
+        display: grid;
+        grid-template-columns: 0.5fr 0.2fr 0fr 0.2fr;
+        grid-template-rows: 180px 0.1px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:1153px) {
+    .alianza {
+        div {
+            width: 50%;
+
+            h2 {
+                font-size: 22px;
+                margin: 20px;
+            }
+
+            p {
+                font-size: 17px;
+                margin: 20px;
+            }
+
+            img {
+                width: 400px;
+                height: 500px;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:923px) {
+    .alianza {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:712px) {
+    .alianza {
+        div {
+            img {
+                width: 300px;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:591px) {
+    .alianza {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1045px) {
+    .hero {
+        background-image: url(../img/back-1045.png);
+
+        div {
+            img {
+                display: none;
+            }
+
+            h1 {
+                font-size: 40px;
+                color: #000000;
+            }
+
+            p {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+
+    }
+}
+
+
+/*?--------------------------------------------------------RESPONSIVE FOOTER-----------------------------------------------------------------------------*/
+@media screen and (max-width:434px) {
+    .whatsaap {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    footer {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: start;
+    }
+
+    footer {
+        ul {
+            display: none;
+        }
+    }
+}

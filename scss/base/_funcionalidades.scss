@@ -1,0 +1,15 @@
+//*?VARIABLES
+$color-principal:black;
+$color-secundario:white;
+$color-terciario:rgb(190, 0, 0);
+$color-particular:#0000002d;
+
+//*?LISTAS
+$tamaños:70px,40px,27px,30px,50px;
+
+//*?MIXIN
+@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

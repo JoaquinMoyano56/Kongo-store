@@ -1,0 +1,21 @@
+/*?--------------------------------------------------------FOOTEER-----------------------------------------------------------------------------*/
+footer {
+    @include flex(flex, space-around, normal);
+    flex-direction: row-reverse;
+    background-color:$color-principal;
+
+    div {
+        ul {
+            li {
+                font-size: 25px;
+                color:$color-secundario;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color:$color-secundario;
+                }
+            }
+        }
+    }
+}

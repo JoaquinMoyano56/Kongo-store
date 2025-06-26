@@ -862,14 +862,14 @@ footer div ul li a {
 }
 @media screen and (max-width: 398px) {
   .stock article {
-    height: 400px;
+    height: 410px;
   }
   .stock article img {
     width: 250px;
     height: 250px;
   }
   .buzos article {
-    height: 400px;
+    height: 410px;
   }
   .buzos article img {
     width: 250px;

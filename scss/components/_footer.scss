@@ -2,20 +2,31 @@
 footer {
     @include flex(flex, space-around, normal);
     flex-direction: row-reverse;
-    background-color:$color-principal;
+    background-color: black;
 
     div {
+        a {
+            display: flex;
+            flex-direction: column;
+        }
+
         ul {
             li {
                 font-size: 25px;
-                color:$color-secundario;
                 list-style: none;
+                color: $color-secundario;
+                padding-top: 10px;
 
                 a {
                     text-decoration: none;
-                    color:$color-secundario;
+                    color: $color-secundario;
+
                 }
             }
         }
+        img{
+            width: 100%;
+        }
+        
     }
 }

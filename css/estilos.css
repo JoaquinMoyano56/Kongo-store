@@ -19,6 +19,10 @@ body {
   height: 250px;
 }
 
+.fondo {
+  background-color: black;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -118,7 +122,7 @@ header img {
 .new article {
   border: 0.5px solid black;
   height: 460px;
-  margin: 10px;
+  margin: 13px;
   text-align: center;
   transition: 2s;
 }
@@ -309,16 +313,33 @@ header img {
 }
 
 /**--------------------------------------------------------MAIN TIENDA-----------------------------------------------------------------------------*/
+.shop {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/shop-img2.jpg);
+}
+.shop img {
+  width: 600px;
+  height: 580px;
+}
+
 .descubri h2 {
   font-size: 65px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.1764705882);
+  background: #f0e9e9;
+  background: radial-gradient(circle, rgb(240, 233, 233) 27%, rgb(0, 0, 0) 77%);
   margin: 30px;
 }
 
 .form-select {
+  width: 97%;
   font-size: 20px;
   color: rgb(0, 0, 0);
+  box-shadow: 12px 11px 15px -12px rgb(0, 0, 0);
+  -webkit-box-shadow: 12px 11px 15px -12px rgb(0, 0, 0);
+  -moz-box-shadow: 12px 11px 15px -12px rgb(0, 0, 0);
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .ultimo-filtro {
@@ -351,6 +372,7 @@ header img {
 .tienda article img {
   width: 300px;
   height: 300px;
+  padding: 10px;
 }
 .tienda article h2 {
   font-size: 40px;
@@ -402,6 +424,7 @@ header img {
 .ingreso article img {
   width: 300px;
   height: 300px;
+  padding: 10px;
 }
 .ingreso article h2 {
   font-size: 40px;
@@ -617,6 +640,7 @@ iframe {
   height: 400px;
   padding: 10px;
   transition: 2s;
+  margin-bottom: 20px;
 }
 iframe:hover {
   transform: scale(1.1);
@@ -644,8 +668,8 @@ iframe:hover {
   color: black;
 }
 .cerro iframe {
-  margin: 20px;
   width: 500px;
+  margin-bottom: 20px;
 }
 
 .alto-palermo {
@@ -664,6 +688,9 @@ iframe:hover {
   font-size: 40px;
   text-align: center;
   margin: 20px;
+}
+.alto-palermo iframe {
+  margin-bottom: 20px;
 }
 
 .dot {
@@ -684,7 +711,7 @@ iframe:hover {
   margin: 20px;
 }
 .dot iframe {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 /**--------------------------------------------------------MAIN QUIENES SOMOS-----------------------------------------------------------------------------*/
@@ -692,38 +719,34 @@ iframe:hover {
   width: 100%;
 }
 .logo h1 {
-  font-size: 50px;
+  font-size: 70px;
   background-color: black;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 .logo h1::first-letter {
   color: rgb(190, 0, 0);
 }
 
-.texto {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-.texto article img {
-  width: 550px;
-  height: 550px;
-  margin: 10px 10px 10px 0px;
-}
 .texto article h2 {
-  font-size: 43px;
+  font-size: 50px;
   text-align: center;
+  color: white;
 }
 .texto article p {
-  font-size: 23px;
+  font-size: 30px;
   text-align: center;
   margin: 20px;
+  color: white;
+}
+.texto article img {
+  width: 100%;
 }
 
 .collapsed {
+  background-color: black;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 .collapsed:hover {
   color: rgb(190, 0, 0);
@@ -731,17 +754,17 @@ iframe:hover {
 
 .accordion-body {
   font-size: 20px;
-  color: black;
+  color: white;
+  background-color: black;
 }
 
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  background-color: black;
 }
 .formulario div label {
-  background-color: black;
   color: white;
   padding: 5px;
   font-size: 40px;
@@ -779,6 +802,11 @@ footer div ul li a {
 }
 footer div img {
   width: 100%;
+}
+
+.footer-icono {
+  display: flex;
+  flex-direction: column;
 }
 
 /*?--------------------------------------------------------RESPONSIVE LOCALES-----------------------------------------------------------------------------*/
@@ -824,6 +852,44 @@ footer div img {
   .dot {
     display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .lugar div {
+    background: #0d0c0c;
+    background: radial-gradient(circle, rgb(13, 12, 12) 45%, rgb(126, 125, 125) 98%);
+  }
+  .lugar div h1 {
+    color: white;
+  }
+}
+@media screen and (max-width: 726px) {
+  .lugar div h1 {
+    font-size: 40px;
+  }
+  .palermo div h2 {
+    font-size: 30px;
+  }
+  .palermo div p {
+    font-size: 20px;
+  }
+  .cerro div h2 {
+    font-size: 30px;
+  }
+  .cerro div p {
+    font-size: 20px;
+  }
+  .alto-palermo div h2 {
+    font-size: 30px;
+  }
+  .alto-palermo div p {
+    font-size: 20px;
+  }
+  .dot div h2 {
+    font-size: 30px;
+  }
+  .dot div p {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 627px) {
@@ -886,7 +952,6 @@ footer div img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
   }
   .formulario div label {
     font-size: 20px;
@@ -898,15 +963,6 @@ footer div img {
   }
 }
 @media screen and (max-width: 1277px) {
-  .texto {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .texto article img {
-    width: 450px;
-    height: 450px;
-  }
   .texto article h2 {
     font-size: 30px;
     text-align: center;
@@ -916,11 +972,47 @@ footer div img {
     text-align: center;
     margin: 20px;
   }
+  .texto article img {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 964px) {
+  .texto article img {
+    width: 100%;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 892px) {
+  .texto article img {
+    width: 100%;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .logo h1 {
+    font-size: 50px;
+  }
+  .texto article img {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 822px) {
+  .texto article img {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 594px) {
+  .texto article img {
+    width: 100%;
+    height: 200px;
+  }
 }
 @media screen and (max-width: 485px) {
   .texto article img {
-    width: 300px;
-    height: 300px;
+    height: 150px;
   }
   .texto article h2 {
     font-size: 20px;
@@ -1067,6 +1159,76 @@ footer div img {
     height: 250px;
   }
 }
+@media screen and (max-width: 1395px) {
+  .shop img {
+    width: 400px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .shop img {
+    width: 350px;
+    height: 350px;
+  }
+  .form-select {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .shop img {
+    width: 310px;
+    height: 310px;
+  }
+}
+@media screen and (max-width: 741px) {
+  .shop img {
+    width: 250px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 679px) {
+  .shop img {
+    width: 200px;
+    height: 250px;
+  }
+  .descubri h2 {
+    background: #0d0c0c;
+    background: radial-gradient(circle, rgb(13, 12, 12) 45%, rgb(126, 125, 125) 98%);
+    color: white;
+  }
+}
+@media screen and (max-width: 603px) {
+  .shop img {
+    width: 180px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 535px) {
+  .form-select {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .shop img {
+    width: 160px;
+    height: 180px;
+  }
+  .descubri h2 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 433px) {
+  .shop img {
+    width: 120px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 359px) {
+  .shop img {
+    width: 115px;
+    height: 150px;
+  }
+}
 /*?--------------------------------------------------------RESPONSIVE INDEX-----------------------------------------------------------------------------*/
 @media screen and (max-width: 1131px) {
   .nueva img {
@@ -1139,16 +1301,17 @@ footer div img {
     display: none;
   }
 }
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1046px) {
   .hero {
     background-image: url(../img/back-1045.png);
+    height: 300px;
   }
   .hero div img {
     display: none;
   }
   .hero div h1 {
     font-size: 40px;
-    color: #000000;
+    color: white;
   }
   .hero div p {
     font-size: 20px;
@@ -1169,6 +1332,40 @@ footer div img {
   }
   footer ul {
     display: none;
+  }
+  .footer-icono {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .logo-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+  }
+  .fuera-footer {
+    background-color: black;
+  }
+}
+@media screen and (max-width: 904px) {
+  .logo-footer {
+    height: 160px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .logo-footer {
+    height: 130px;
+  }
+}
+@media screen and (max-width: 551px) {
+  .logo-footer {
+    height: 110px;
+  }
+}
+@media screen and (max-width: 368px) {
+  .logo-footer {
+    height: 100px;
   }
 }
 

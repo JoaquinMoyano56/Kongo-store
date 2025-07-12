@@ -68,6 +68,79 @@
     }
 }
 
+@media screen and (max-width:1006px) {
+    .lugar {
+        div {
+            background: #0d0c0c;
+            background: radial-gradient(circle, rgba(13, 12, 12, 1) 45%, rgba(126, 125, 125, 1) 98%);
+
+
+            h1 {
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:726px) {
+    .lugar {
+        div {
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .palermo {
+        div {
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .cerro {
+        div {
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .alto-palermo {
+        div {
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .dot {
+        div {
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
 @media screen and (max-width:627px) {
     .palermo {
         iframe {
@@ -170,7 +243,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px;
+
 
         div {
             label {
@@ -189,16 +262,7 @@
 
 @media screen and (max-width:1277px) {
     .texto {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-
         article {
-            img {
-                width: 450px;
-                height: 450px;
-            }
-
             h2 {
                 font-size: 30px;
                 text-align: center;
@@ -209,6 +273,72 @@
                 text-align: center;
                 margin: 20px;
             }
+
+            img {
+                width: 100%;
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:964px) {
+    .texto {
+        article {
+            img {
+                width: 100%;
+                height: 380px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:892px) {
+    .texto {
+        article {
+            img {
+                width: 100%;
+                height: 350px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:868px) {
+    .logo {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .texto {
+        article {
+            img {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:822px) {
+    .texto {
+        article {
+            img {
+                width: 100%;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:594px) {
+    .texto {
+        article {
+            img {
+                width: 100%;
+                height: 200px;
+            }
         }
     }
 }
@@ -217,8 +347,7 @@
     .texto {
         article {
             img {
-                width: 300px;
-                height: 300px;
+                height: 150px;
             }
 
             h2 {
@@ -444,6 +573,110 @@
     }
 }
 
+@media screen and (max-width:1395px) {
+    .shop {
+        img {
+            width: 400px;
+            height: 380px;
+        }
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .shop {
+        img {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .form-select {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .shop {
+        img {
+            width: 310px;
+            height: 310px;
+        }
+    }
+}
+
+@media screen and (max-width:741px) {
+    .shop {
+        img {
+            width: 250px;
+            height: 280px;
+        }
+    }
+}
+
+@media screen and (max-width:679px) {
+    .shop {
+        img {
+            width: 200px;
+            height: 250px;
+        }
+    }
+
+    .descubri {
+        h2 {
+            background: #0d0c0c;
+            background: radial-gradient(circle, rgba(13, 12, 12, 1) 45%, rgba(126, 125, 125, 1) 98%);
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width:603px) {
+    .shop {
+        img {
+            width: 180px;
+            height: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:535px) {
+    .form-select {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .shop {
+        img {
+            width: 160px;
+            height: 180px;
+        }
+    }
+
+    .descubri {
+        h2 {
+            font-size: 45px;
+        }
+    }
+}
+
+@media screen and (max-width:433px) {
+    .shop {
+        img {
+            width: 120px;
+            height: 180px;
+        }
+    }
+}
+
+@media screen and (max-width:359px) {
+    .shop {
+        img {
+            width: 115px;
+            height: 150px;
+        }
+    }
+}
 
 /*?--------------------------------------------------------RESPONSIVE INDEX-----------------------------------------------------------------------------*/
 @media screen and (max-width:1131px) {
@@ -541,9 +774,10 @@
     }
 }
 
-@media screen and (max-width:1045px) {
+@media screen and (max-width:1046px) {
     .hero {
         background-image: url(../img/back-1045.png);
+        height: 300px;
 
         div {
             img {
@@ -552,7 +786,7 @@
 
             h1 {
                 font-size: 40px;
-                color: #000000;
+                color: $color-secundario;
             }
 
             p {
@@ -585,5 +819,48 @@
         ul {
             display: none;
         }
+    }
+
+    .footer-icono {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 180px;
+    }
+
+    .fuera-footer {
+        background-color: black;
+    }
+
+
+}
+
+@media screen and (max-width:904px) {
+    .logo-footer {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .logo-footer {
+        height: 130px;
+    }
+}
+
+@media screen and (max-width:551px) {
+    .logo-footer {
+        height: 110px;
+    }
+}
+
+@media screen and (max-width:368px) {
+    .logo-footer {
+        height: 100px;
     }
 }

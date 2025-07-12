@@ -79,7 +79,7 @@
     article {
         border: 0.5px solid black;
         height: 460px;
-        margin: 10px;
+        margin: 13px;
         text-align: center;
         transition: 2s;
 
@@ -296,18 +296,38 @@
 
 
 /**--------------------------------------------------------MAIN TIENDA-----------------------------------------------------------------------------*/
+.shop {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/shop-img2.jpg);
+
+    img {
+        width: 600px;
+        height: 580px;
+
+    }
+}
+
 .descubri {
     h2 {
         font-size: 65px;
         text-align: center;
-        background-color: $color-particular;
+        background: #f0e9e9;
+        background: radial-gradient(circle, rgba(240, 233, 233, 1) 27%, rgba(0, 0, 0, 1) 77%);
         margin: 30px;
+
     }
 }
 
 .form-select {
+    width: 97%;
     font-size: 20px;
     color: rgb(0, 0, 0);
+    box-shadow: 12px 11px 15px -12px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 12px 11px 15px -12px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 12px 11px 15px -12px rgba(0, 0, 0, 1);
+    margin-left: 30px;
+    margin-bottom: 10px;
 
 }
 
@@ -340,6 +360,7 @@
         img {
             width: 300px;
             height: 300px;
+            padding: 10px;
         }
 
         h2 {
@@ -400,6 +421,7 @@
         img {
             width: 300px;
             height: 300px;
+            padding: 10px;
         }
 
         h2 {
@@ -673,6 +695,7 @@ iframe {
     height: 400px;
     padding: 10px;
     transition: 2s;
+    margin-bottom: 20px;
 
     &:hover {
         transform: scale(1.1);
@@ -703,8 +726,8 @@ iframe {
     }
 
     iframe {
-        margin: 20px;
         width: 500px;
+        margin-bottom: 20px;
     }
 }
 
@@ -725,6 +748,10 @@ iframe {
             text-align: center;
             margin: 20px;
         }
+    }
+
+    iframe {
+        margin-bottom: 20px;
     }
 }
 
@@ -748,7 +775,7 @@ iframe {
     }
 
     iframe {
-        margin: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -759,9 +786,9 @@ iframe {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 70px;
         background-color: black;
-        color: white;
+        color: rgb(255, 255, 255);
         text-align: center;
 
         &::first-letter {
@@ -771,33 +798,33 @@ iframe {
 }
 
 .texto {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-
     article {
-        img {
-            width: 550px;
-            height: 550px;
-            margin: 10px 10px 10px 0px;
-        }
-
         h2 {
-            font-size: 43px;
+            font-size: 50px;
             text-align: center;
+            color: white;
         }
 
         p {
-            font-size: 23px;
+            font-size: 30px;
             text-align: center;
             margin: 20px;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+
         }
     }
 }
 
+
+
 .collapsed {
+    background-color: $color-principal;
     font-size: 20px;
-    color: black;
+    color: white;
 
     &:hover {
         color: rgb(190, 0, 0);
@@ -806,18 +833,18 @@ iframe {
 
 .accordion-body {
     font-size: 20px;
-    color: black;
+    color: white;
+    background-color: $color-principal;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    background-color: $color-principal;
 
     div {
         label {
-            background-color: black;
             color: white;
             padding: 5px;
             font-size: 40px;

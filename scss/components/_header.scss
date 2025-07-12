@@ -1,26 +1,30 @@
+.fondo {
+   background-color: $color-principal;
+}
+
 header {
-  position: sticky; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999; 
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 
-    nav {
-        div {
-            background-color: black;
+nav {
+    div {
+        background-color: black;
 
-            ul {
-                li {
-                    a {
-                        color: white !important;
-                        font-size: 25px !important;
-                    }
+        ul {
+            li {
+                a {
+                    color: white !important;
+                    font-size: 25px !important;
                 }
             }
         }
     }
+}
 
 
 .navbar {

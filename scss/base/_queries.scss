@@ -683,7 +683,7 @@
     .nueva {
         img {
             width: 100%;
-            height: 250px;
+            height: 350px;
         }
     }
 }
@@ -716,12 +716,39 @@
 
 }
 
+@media screen and (max-width:762px) {
+    .nueva {
+        img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+}
+
 @media screen and (max-width:754px) {
     .grid-contenedor {
         display: grid;
         grid-template-columns: 0.5fr 0.2fr 0fr 0.2fr;
         grid-template-rows: 180px 0.1px;
         gap: 20px;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .nueva {
+        img {
+            width: 100%;
+            height: 150px;
+        }
+    }
+}
+
+@media screen and (max-width:438px) {
+    .nueva {
+        img {
+            width: 100%;
+            height: 100px;
+        }
     }
 }
 
@@ -776,7 +803,7 @@
 
 @media screen and (max-width:1046px) {
     .hero {
-        background-image: url(../img/back-1045.png);
+        background-image: url(../img/banner-queries1.png);
         height: 300px;
 
         div {
@@ -790,11 +817,24 @@
             }
 
             p {
-                font-size: 20px;
-                color: white;
+                display: none;
             }
         }
 
+
+    }
+}
+
+@media screen and (max-width:357px) {
+    .hero {
+        background-image: url(../img/ban-queries.png);
+        height: 300px;
+
+        div {
+            a {
+                margin-top: 40px;
+            }
+        }
 
     }
 }
@@ -840,6 +880,17 @@
 
 
 }
+
+@media screen and (max-width:962px) {
+    footer {
+        div{
+            img{
+                height: 60px;
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width:904px) {
     .logo-footer {
